@@ -18,32 +18,32 @@ Khóa luận có ba đóng góp chính:
 ├── requirements.txt
 ├── .gitignore
 │
-├── shortqa/                       # [Đóng góp 2] Benchmark ShortQA
-│   ├── shortQA_benchmark.csv      # 409 câu: question, grade, difficulty
-│   ├── evaluation_results.csv     # Câu trả lời + điểm rubric (Llama & Phi)
-│   ├── rubric.md                  # Rubric đánh giá 4 khía cạnh
-│   └── run_benchmark.py           # Chạy 2 LLM zero-shot trên benchmark
+├── shortqa/                       
+│   ├── shortQA_benchmark.csv      
+│   ├── evaluation_results.csv   
+│   ├── rubric.md                 
+│   └── run_benchmark.py           
 │
-├── taxonomy/                      # [Đóng góp 1] Taxonomy ảo giác Lịch sử
-│   ├── taxonomy.py                # Sơ đồ tròn 10 loại
-│   └── taxonomy_table.py          # Bảng mô tả chi tiết + ví dụ
+├── taxonomy/                      
+│   ├── taxonomy.py               
+│   └── taxonomy_table.py        
 │
-└── truthrl/                       # [Đóng góp 3] Pipeline TruthRL
+└── truthrl/                      
     ├── README.md
-    ├── data/                      # Sinh từ src/data.py
+    ├── data/                     
     │   ├── train.jsonl
     │   └── eval.jsonl
-    ├── output/                    # Kết quả eval
+    ├── output/                   
     │   └── adapter_results.jsonl
     └── src/
         ├── config.py
-        ├── data.py                # Build train/eval/test từ SQuAD 2.0
-        ├── verifier.py            # Gemini verifier (reward khi train)
-        ├── reward.py              # Hàm reward 3 mức
-        ├── train.py               # GRPO + LoRA
-        ├── judges.py              # Groq judges (abstention + correctness)
-        ├── eval.py                # Inference + judging trên test set
-        └── metrics.py             # Hallucination, Truthfulness, F1
+        ├── data.py                
+        ├── verifier.py           
+        ├── reward.py             
+        ├── train.py               
+        ├── judges.py             
+        ├── eval.py                
+        └── metrics.py            
 ```
 
 ## Cài đặt
