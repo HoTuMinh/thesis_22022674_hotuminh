@@ -1,0 +1,32 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets (tuyệt đối không commit)
+.env
+*.key
+kaggle.json
+
+# Output / weights
+*.zip
+*.bin
+*.safetensors
+truthrl_run/
+*_results.jsonl
+benchmark_outputs.csv
+
+# Generated figures (giữ source, bỏ output) — tùy chọn
+# taxonomy.png
+# taxonomy.pdf
+# taxonomy_table.png
+# taxonomy_table.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
