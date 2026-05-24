@@ -1,6 +1,6 @@
 # Đánh giá ảo giác của LLM trong tác vụ hỏi đáp Lịch sử Việt Nam
 
-M� nguồn và dữ liệu đi kèm khóa luận tốt nghiệp **"Xây dựng bộ chuẩn đánh giá và áp dụng phương pháp học tăng cường nhằm giảm thiểu ảo giác của mô hình ngôn ngữ lớn trong tác vụ hỏi đáp Lịch sử"** — Hồ Tú Minh, Trường Đại học Công nghệ, ĐHQGHN, 2026.
+Mã nguồn và dữ liệu đi kèm khóa luận tốt nghiệp **"Xây dựng bộ chuẩn đánh giá và áp dụng phương pháp học tăng cường nhằm giảm thiểu ảo giác của mô hình ngôn ngữ lớn trong tác vụ hỏi đáp Lịch sử"** — Hồ Tú Minh, Trường Đại học Công nghệ, ĐHQGHN, 2026.
 
 ## Tổng quan
 
